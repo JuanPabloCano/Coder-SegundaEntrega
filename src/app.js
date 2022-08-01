@@ -1,8 +1,7 @@
 import express from 'express';
 import Error from './middleware/error.js';
 import morgan from "morgan";
-import router from './routes/product.routes.js';
-
+import {router} from './routes/router.js'
 const app = express();
 
 app.use(morgan('dev'));
