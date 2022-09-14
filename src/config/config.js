@@ -10,7 +10,6 @@ dotenv.config({
 });
 
 export default class Config {
-    static PORT = process.env.PORT;
     static MONGO_DB_CONNECTION = process.env.MONGO_DB_CONNECTION;
     static TYPE = process.env.TYPE;
     static PROJECT_ID = process.env.PROJECT_ID;
